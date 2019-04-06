@@ -54,7 +54,7 @@ CharacterStats.prototype.takeDamage = function(){
 */
 
 function Humanoid(attributes) {
-  CharacterStats.call(this, attributes)
+  CharacterStats.call(this, attributes) //Kinda understand why this was done, but I'm not entirely sure.
   this.team = attributes.team,
   this.weapons = attributes.weapons,
   this.language = attributes.language
